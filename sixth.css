@@ -1,0 +1,430 @@
+
+
+
+@font-face {
+    font-family: "Playfair Display";
+    src: url("fonts/PlayfairDisplay-SemiBold.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    color: #FFF8F3CC;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 0.72px;
+    vertical-align: middle;
+}
+
+button {
+    border: none;
+}
+
+
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.row2 {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 40px;
+}
+
+.row3 {
+    border-top: 1px solid #81747133;
+    border-bottom: 1px solid #81747133;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 16px;
+    padding: 12px;
+}
+
+.col-1,
+.col-2 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+}
+
+.boxe {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 15px;
+    padding: 30px;
+}
+
+.non-box {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 16.5px;
+    color: #D3C3C0;
+}
+
+
+
+
+.sixthSec {
+    background-color: #2B1B17;
+    display: block;
+}
+
+.sixthSec .container {
+    max-width: 1400px;
+    margin: auto;
+}
+
+.sixthSec .grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    padding: 40px 20px;
+}
+
+
+
+
+.s1,
+.s2,
+.s3,
+.s4 {
+    display: flex;
+    flex-direction: column;
+    padding-top: 48px;
+}
+
+.s1 {
+    row-gap: 20px;
+}
+
+.s1 p {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.14px;
+    line-height: 22.75px;
+    color: #D3C3C0;
+}
+
+.s1-img {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+}
+
+.s1-img p {
+    font-family: "Playfair Display", serif;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 36px;
+    color: #FFF8F3;
+}
+
+.s1-icons {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 6px;
+    column-gap: 12px;
+}
+
+
+
+
+.s2 {
+    row-gap: 8px;
+}
+
+.s2 .bold {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 0.7px;
+    color: #FFF8F3;
+    margin-bottom: 8px;
+}
+
+.s2 p {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.14px;
+    color: #D3C3C0;
+}
+
+
+
+
+.s3 {
+    row-gap: 8px;
+}
+
+.s3 .p1 {
+    margin-bottom: 8px;
+}
+
+.s3 p {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 0.7px;
+    color: #FFF8F3;
+}
+
+.s3 .bold {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.14px;
+    color: #D3C3C0;
+}
+
+.brista {
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+}
+
+.brista p {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 0.72px;
+    color: #FFDCC2;
+}
+
+
+
+
+.s4 {
+    row-gap: 12px;
+}
+
+.s4 p {
+    color: #D3C3C0;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22.4px;
+    letter-spacing: 0.14px;
+}
+
+.s4 .p1 {
+    margin-bottom: 4px;
+    color: #FFF8F3;
+}
+
+.email {
+    display: flex;
+    width: 100%;
+}
+
+.email button {
+    width: 22%;
+    background-color: #845326;
+    color: #FFF8F3;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    cursor: pointer;
+}
+
+.email input {
+    width: 78%;
+    min-width: 0;
+    background-color: #8174714D;
+    color: #D3C3C0;
+    height: 40px;
+    padding: 10px 12px;
+    border: 1px solid #8174714D;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+
+
+
+.footer {
+    border-top: 1px solid #81747133;
+    padding: 20px;
+}
+
+.footer p {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #D3C3C0;
+    line-height: 22.4px;
+    letter-spacing: 0.14px;
+}
+
+.dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #FFDCC2;
+}
+
+
+
+
+
+
+.semi-footer {
+    display: none;
+}
+
+.footer-s {
+    display: none;
+    background-color: #2B1B17;
+}
+
+
+
+
+@media (max-width: 1000px) {
+
+    .sixthSec .grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+
+}
+
+
+
+
+@media (max-width: 768px) {
+
+    
+
+    .sixthSec {
+        display: none;
+    }
+
+
+   
+    .semi-footer {
+        display: flex;
+        flex-direction: column;
+        row-gap: 15px;
+        padding: 25px 20px;
+        background-color: #FFF8F3;
+    }
+
+    .semi-footer .fir {
+        font-family: "Playfair Display", serif;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 28px;
+        color: #0E0402;
+    }
+
+    .semi-footer .row {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .semi-footer .row p {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-size: 12px;
+        line-height: 20px;
+        color: #2B1B17;
+    }
+
+
+    
+
+    .footer-s {
+        display: block;
+        padding: 30px 20px;
+    }
+
+    .footer-s .container {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .footer-s .p1 {
+        font-family: "Playfair Display", serif;
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 36px;
+        letter-spacing: -0.7px;
+        color: #FFF8F3;
+    }
+
+    .footer-s p {
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 16.5px;
+        color: #D3C3C0;
+    }
+
+    .footer-s .row3 {
+        justify-content: space-between;
+        gap: 20px;
+    }
+
+    .footer-s .col-1,
+    .footer-s .col-2 {
+        flex: 1;
+    }
+
+    .footer-s .row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .footer-s .boxe {
+        padding: 10px 0;
+        gap: 12px;
+    }
+
+    .footer-s .non-box {
+        text-align: right;
+    }
+
+}
+
+
+
+
+@media (max-width: 400px) {
+
+    .semi-footer {
+        padding: 20px 15px;
+    }
+
+    .footer-s {
+        padding: 25px 15px;
+    }
+
+    .footer-s .row3 {
+        padding: 12px 0;
+    }
+
+    .footer-s .boxe {
+        column-gap: 10px;
+    }
+
+}
